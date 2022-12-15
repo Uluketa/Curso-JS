@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px 0px;
+  border-radius: 10px;
+  height: 175px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.container h1, .container p{
+  text-align: center;
+}
+
+input[type="text"]{
+  font-size: 13px;
+  background-color: rgb(239, 239, 239);
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.btn-add-tarefa{
+  font-size: 13px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(165, 165, 165);
+}
+
+.tasks{
+  border-radius: 10px;
+  margin-top: 60px;
+  background-color: #fff;
+  width: 640px;
+  padding: 5px 0px;
+}
+
+li{
+  list-style-type: none;
+  margin: 20px 40px 0px 0px;
+  font-size: 13px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  background-color: rgb(239, 239, 239);
+}
+
+.apagar{
+  background-color: rgb(165, 165, 165);
+  float: right;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-top: 3.5px;
+}
