@@ -1,0 +1,1 @@
+mongodb+srv://uluketa:lucas2005@cluster.9bo1zpv.mongodb.net/?retryWrites=true&w=majority
