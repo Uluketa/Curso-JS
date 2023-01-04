@@ -6,7 +6,7 @@
 
 <p>Path from the examples above: </p>
 
-<li>.\aula58\* ⠀⠀⠀     (calculator)</li>
-<li>.\aula46\* ⠀⠀⠀     (tasks)</li>
+<li>.\srcCourse\aula58\* ⠀⠀⠀     (calculator)</li>
+<li>.\srcCourse\aula46\* ⠀⠀⠀     (tasks)</li>
 
 <br>
