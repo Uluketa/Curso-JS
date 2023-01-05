@@ -5,11 +5,9 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.CONNECTIONSTRING)
     .then(() => {
-        console.log('Conectado a base de dados');
-        app.emit('connected')
+        app.emit('connected');
     })
     .catch(err => console.log(err));
-
 const port = 3000
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
@@ -21,7 +19,9 @@ const csrf = require('csurf');
 const { meuMiddleWare, checkCsrfError, csrfMiddleware } = require('./src/middlewares/middleware');
 
 app.use(helmet());
+
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static(path.resolve(__dirname, 'public')));
 
 const sessionOptions = session({
