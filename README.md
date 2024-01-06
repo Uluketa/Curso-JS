@@ -8,7 +8,3 @@
 
 <li>.\srcCourse\aula58\* ⠀⠀⠀     (calculator)</li>
 <li>.\srcCourse\aula46\* ⠀⠀⠀     (tasks)</li>
-
-<br>
-
-* In progress
